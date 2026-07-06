@@ -32,34 +32,6 @@ where $y_m = 1$ if at least one defective item is present in pool $m$, and $y_m 
 
 The goal is to estimate the unknown sparse binary vector $x$ from the test matrix $A$ and the Boolean measurements $y$.
 
-## Repository Structure
-
-```text
-boolean-compressed-sensing-matlab/
-│
-├── README.md
-├── LICENSE
-│
-├── data/
-│   └── group_testing_samples.mat
-│
-├── src/
-│   ├── run_group_testing_experiments.m
-│   │
-│   └── algorithms/
-│       ├── comp_decoder.m
-│       ├── dd_decoder.m
-│       ├── boolean_matching_pursuit.m
-│       └── nonnegative_lasso_decoder.m
-│
-└── figures/
-    ├── comp_hamming_distance.png
-    ├── dd_hamming_distance.png
-    ├── mp_hamming_distance.png
-    ├── comp_runtime.png
-    ├── dd_runtime.png
-    └── mp_runtime.png
-```
 
 ## Implemented Files
 
